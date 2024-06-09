@@ -5,9 +5,15 @@
   "repository": "git@github.com:trinhthinh388/101-leetcode.git",
   "author": "thinh.trinh <thinhtd@wolffungame.com>",
   "license": "MIT",
+  "scripts": {
+    "format": "prettier **/*.js"
+  },
   "dependencies": {
     "@datastructures-js/priority-queue": "^6.1.0",
     "@datastructures-js/queue": "^4.2.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1"
   }
 }
