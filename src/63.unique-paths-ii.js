@@ -9,8 +9,5 @@
  * @param {number[][]} obstacleGrid
  * @return {number}
  */
-var uniquePathsWithObstacles = function(obstacleGrid) {
-    
-};
+var uniquePathsWithObstacles = function (obstacleGrid) {};
 // @lc code=end
-

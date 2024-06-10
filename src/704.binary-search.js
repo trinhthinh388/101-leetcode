@@ -11,18 +11,18 @@
  * @return {number}
  */
 var search = function (nums, target) {
-  let l = 0
-  let r = nums.length - 1
+  let l = 0;
+  let r = nums.length - 1;
   while (l <= r) {
-    const i = Math.floor((l + r) / 2)
-    if (nums[i] === target) return i
+    const i = Math.floor((l + r) / 2);
+    if (nums[i] === target) return i;
     else if (target < nums[i]) {
-      r = i - 1
+      r = i - 1;
     } else {
-      l = i + 1
+      l = i + 1;
     }
   }
 
-  return -1
-}
+  return -1;
+};
 // @lc code=end

@@ -19,8 +19,5 @@
  * @param {number} y
  * @return {boolean}
  */
-var isCousins = function(root, x, y) {
-    
-};
+var isCousins = function (root, x, y) {};
 // @lc code=end
-

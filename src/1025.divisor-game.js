@@ -9,8 +9,5 @@
  * @param {number} n
  * @return {boolean}
  */
-var divisorGame = function(n) {
-    
-};
+var divisorGame = function (n) {};
 // @lc code=end
-

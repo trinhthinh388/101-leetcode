@@ -9,8 +9,5 @@
  * @param {string} s
  * @return {string[]}
  */
-var restoreIpAddresses = function(s) {
-    
-};
+var restoreIpAddresses = function (s) {};
 // @lc code=end
-
